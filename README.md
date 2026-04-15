@@ -167,8 +167,8 @@ huntboard-mern/
 |--------|----------|------|-------------|
 | POST | `/signup` | — | Register new user |
 | POST | `/login` | — | Login + Turnstile verify → returns JWT |
-| GET | `/me` | ✅ | Get current user |
-| PUT | `/me` | ✅ | Update profile |
+| GET | `/me` |  | Get current user |
+| PUT | `/me` |  | Update profile |
 
 ### Jobs — `/api/jobs`
 | Method | Endpoint | Description |
