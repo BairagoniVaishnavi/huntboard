@@ -11,7 +11,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: process.env.CLIENT_URL || "https://huntboard-backend.onrender.com",
+  origin: process.env.CLIENT_URL || "https://huntboard-rvw8.onrender.com",
   credentials: true,
 }));
 app.use(express.json());
